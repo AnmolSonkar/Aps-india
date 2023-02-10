@@ -13,11 +13,11 @@ function App() {
         <Header></Header>
 
         <Routes>
-          <Route path="/Apsprocess" element={<Apsprocess />} />
+          <Route path="/" element={<Apsprocess />} />
           <Route path="/Apseligibility" element={<Apseligibility />} />
         </Routes>
+        <Footer></Footer>
       </Router>
-      <Footer></Footer>
     </div>
   );
 }

@@ -3,8 +3,8 @@ import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     return (
-      <div className="flex text-white justify-center lg:mt-5 mt-52 bg-[#1f1f1f]">
-        <div className="py-4  text-sm text-white">
+      <div className="flex justify-center lg:mt-5 mt-52 bg-gray-100 shadow-md">
+        <div className="py-4  text-sm text-[#666666]">
           <p className="text-center">
             Copyright &copy;
             <span> 2022</span>
