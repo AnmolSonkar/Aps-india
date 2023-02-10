@@ -156,9 +156,9 @@ function App() {
           </div>
           <div className="mb-4">
             <p className="text-gray-700 font-medium mb-2">Targeted month :</p>
-            <p className="text-gray-600">
+            <p className="text-gray-800">
               <p className="text-green "></p>
-              <p className="text-gray-600 font bg-green-400 rounded-lg p-2 pl-3 pr-3 shadow">
+              <p className="text-gray-800 font bg-green-400 rounded-lg p-2 pl-3 pr-3 shadow">
                 {intake}
               </p>
               <div className="mt-3">
