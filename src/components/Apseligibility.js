@@ -74,9 +74,12 @@ function Apseligibility() {
   }
 
   return (
-    <div className="h-screen mt-20 display-flex justify-content-center align-items-center text-left">
+    <div className="h-screen mt-[150px] display-flex justify-content-center align-items-center text-left">
       <div className="container mx-auto px-4">
         <h1 className="text-2xl font-bold mb-10 text-center">
+          Your gateway to study in Germany
+        </h1>
+        <h1 className="text-xl font-bold mb-5 text-left">
           Student Information
         </h1>
         <form className="bg-white p-6 rounded-lg shadow-md">
@@ -133,8 +136,8 @@ function Apseligibility() {
             </div>
           ) : null}
 
-          {highestqualification === "12" && percentage12th === "More than 50%"?
-          (
+          {highestqualification === "12" &&
+          percentage12th === "More than 50%" ? (
             <div className="mb-4">
               <label
                 className="block text-gray-700 font-medium mb-2"
@@ -216,9 +219,16 @@ function Apseligibility() {
           <div className="result mt-10 w-[97%] mx-auto pl-3">
             <div className="mb-4 ">
               <p className="text-gray-700 font-medium mb-2">Result :</p>
-              <p className="text-gray-600 font bg-green-400 rounded-lg p-2 pl-3 pr-3 shadow">
-                {result}
-              </p>
+              {result ===
+              "You do not qualify for admission in German universities." ? (
+                <p className="text-gray-800 font bg-red-400 rounded-lg p-2 pl-3 pr-3 shadow">
+                  {result}
+                </p>
+              ) : (
+                <p className="text-gray-800 font bg-green-400 rounded-lg p-2 pl-3 pr-3 shadow">
+                  {result}
+                </p>
+              )}
             </div>
           </div>
         ) : null}

@@ -1,31 +1,25 @@
-import React, { useState } from "react";
-import Aps from "./components/Aps";
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Apseligibility from "./components/Apseligibility";
+import Apsprocess from "./components/Aps";
 
-const App = () => {
-  const [component, setComponent] = useState("aps");
-
+function App() {
   return (
-    <div className="mx-auto mt-10 mb-10 bg-gray-100 ">
-      <div className="flex justify-between">
-        <button
-          onClick={() => setComponent("aps")}
-          className="bg-primary text-black  underline py-3 font-bold px-5 rounded-lg hover:bg-primary-dark"
-        >
-          APS Process
-        </button>
-        <button
-          onClick={() => setComponent("apseligibility")}
-          className="bg-secondary font-bold underline text-black py-3 px-5 rounded-lg hover:bg-secondary-dark"
-        >
-          APS Eligibility Check
-        </button>
-      </div>
+    <div className="flex flex-col h-screen">
+      <Router>
+        <Header></Header>
 
-      {component === "aps" && <Aps />}
-      {component === "apseligibility" && <Apseligibility />}
+        <Routes>
+          <Route path="/Apsprocess" element={<Apsprocess />} />
+          <Route path="/Apseligibility" element={<Apseligibility />} />
+        </Routes>
+      </Router>
+      <Footer></Footer>
     </div>
   );
-};
+}
 
 export default App;
