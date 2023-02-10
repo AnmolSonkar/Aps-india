@@ -150,7 +150,7 @@ function App() {
         <div className="result mt-10 w-[97%] mx-auto pl-3">
           <div className="mb-4 ">
             <p className="text-gray-700 font-medium mb-2">Process :</p>
-            <p className="text-gray-600 font bg-green-400 rounded-lg p-2 pl-3 pr-3 shadow">
+            <p className="text-gray-800 font bg-green-400 rounded-lg p-2 pl-3 pr-3 shadow">
               {process}
             </p>
           </div>
