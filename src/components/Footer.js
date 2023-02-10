@@ -7,7 +7,7 @@ export default class Footer extends Component {
         <div className="py-4  text-sm text-[#666666]">
           <p className="text-center">
             Copyright &copy;
-            <span> 2022</span>
+            <span> 2023</span>
           </p>
           <p className="text-center">
             Designed & Developed By
