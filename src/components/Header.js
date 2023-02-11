@@ -26,7 +26,7 @@ const Header = () => {
     <div className="fixed bg-white w-full  z-20  top-0 left-0 shadow-lg">
       <div className="flex justify-between items-center  h-24 max-w-[1240px] mx-auto px-4 text-[#666666]">
         <h1 className="text-3xl font-bold">
-          <img src="logo.svg" className="lg:w-40 w-32" alt="Logo" />
+        <img src="APS.png" className="lg:w-40 w-32" alt="Logo" />
         </h1>
         <ul className="hidden md:flex">
           <li className="p-4">
@@ -34,6 +34,9 @@ const Header = () => {
           </li>
           <li className="p-4">
             <Link to="/Apseligibility">APS Elgibility Check</Link>
+          </li>
+          <li className="p-4">
+            {/* <Link to="/About">About</Link> */}
           </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -49,7 +52,7 @@ const Header = () => {
           }
         >
           <h1 className=" text-3xl font-bold m-4 mt-10">
-            <img src="logo.svg" className="w-36" alt="Logo" />
+            <img src="APS.png" className="w-36" alt="Logo" />
           </h1>
 
           <li className="p-4 border-b mt-10 border-gray-300">

@@ -78,6 +78,7 @@ function App() {
     <div className="h-screen mt-[150px] display-flex justify-content-center align-items-center text-left">
       <div className="container mx-auto px-4">
         <h1 className="text-2xl font-bold mb-10 text-center">
+         
           Your gateway to study in Germany
         </h1>
         <h1 className="text-xl font-bold mb-5 text-left">
