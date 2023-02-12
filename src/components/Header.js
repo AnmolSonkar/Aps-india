@@ -29,14 +29,15 @@ const Header = () => {
         <img src="APS.png" className="lg:w-40 w-32" alt="Logo" />
         </h1>
         <ul className="hidden md:flex">
+        
           <li className="p-4">
-            <Link to="/">APS Process</Link>
+            <Link to="/">German Calculator</Link>
+          </li>
+          <li className="p-4">
+            <Link to="/Aps">APS Process</Link>
           </li>
           <li className="p-4">
             <Link to="/Apseligibility">APS Elgibility Check</Link>
-          </li>
-          <li className="p-4">
-            {/* <Link to="/About">About</Link> */}
           </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -54,9 +55,11 @@ const Header = () => {
           <h1 className=" text-3xl font-bold m-4 mt-10">
             <img src="APS.png" className="w-36" alt="Logo" />
           </h1>
-
           <li className="p-4 border-b mt-10 border-gray-300">
-            <Link to="/">APS Process</Link>
+            <Link to="/">German Calculator</Link>
+          </li>
+          <li className="p-4 border-b border-gray-300">
+            <Link to="/Aps">APS Process</Link>
           </li>
           <li className="p-4">
             <Link to="/Apseligibility">APS Eligibility Check</Link>
