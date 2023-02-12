@@ -85,30 +85,32 @@ const MathCalculator = () => {
         </div>
         <div>
           <div>
-            <div>
-              {description === "Very good (excellent performance)" ? (
-                <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
-                  {description}
-                </p>
-              ) : description === "Good (performance well above average)" ? (
-                <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
-                  {description}
-                </p>
-              ) : description === "Satisfactory (average performance)" ? (
-                <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
-                  {description}
-                </p>
-              ) : description ===
-                "Sufficient (performance meets the standards in spite of deficiencies)" ? (
-                <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
-                  {description}
-                </p>
-              ) : (
-                <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-red-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
-                  {description}
-                </p>
-              )}
-            </div>
+            {description ? (
+              <div>
+                {description === "Very good (excellent performance)" ? (
+                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
+                    {description}
+                  </p>
+                ) : description === "Good (performance well above average)" ? (
+                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
+                    {description}
+                  </p>
+                ) : description === "Satisfactory (average performance)" ? (
+                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
+                    {description}
+                  </p>
+                ) : description ===
+                  "Sufficient (performance meets the standards in spite of deficiencies)" ? (
+                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
+                    {description}
+                  </p>
+                ) : (
+                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-red-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
+                    {description}
+                  </p>
+                )}
+              </div>
+            ) : null}
           </div>
         </div>
       </div>
