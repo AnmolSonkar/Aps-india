@@ -96,12 +96,12 @@ const MathCalculator = () => {
                     {description}
                   </p>
                 ) : description === "Satisfactory (average performance)" ? (
-                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
+                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-orange-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
                     {description}
                   </p>
                 ) : description ===
                   "Sufficient (performance meets the standards in spite of deficiencies)" ? (
-                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-green-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
+                  <p className="text-gray-800 font lg:w-4/12 w-11/12 mx-auto bg-yellow-400 rounded-lg p-2 pl-3 mt-1 lg:mt-4 pr-3 shadow">
                     {description}
                   </p>
                 ) : (

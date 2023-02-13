@@ -30,7 +30,7 @@ const Header = () => {
         </h1>
         <ul className="hidden md:flex">
           <li className="p-4">
-            <Link to="/Apseligibility">APS Elgibility Check</Link>
+            <Link to="/Apseligibility">Elgibility Check</Link>
           </li>
 
           <li className="p-4">
@@ -56,7 +56,7 @@ const Header = () => {
             <img src="APS.png" className="w-36" alt="Logo" />
           </h1>
           <li className="p-4 mt-10  border-b border-gray-30">
-            <Link to="/Apseligibility">APS Eligibility Check</Link>
+            <Link to="/Apseligibility">Eligibility Check</Link>
           </li>
 
           <li className="p-4 border-b border-gray-300">
