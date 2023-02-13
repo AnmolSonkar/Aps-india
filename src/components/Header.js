@@ -59,10 +59,10 @@ const Header = () => {
             <Link to="/">German Calculator</Link>
           </li>
           <li className="p-4 border-b border-gray-300">
-            <Link to="https://eignungstest.netlify.app/Aps">APS Process</Link>
+            <Link to="/Aps">APS Process</Link>
           </li>
           <li className="p-4">
-            <Link to="https://eignungstest.netlify.app/Apseligibility">APS Eligibility Check</Link>
+            <Link to="/Apseligibility">APS Eligibility Check</Link>
           </li>
         </ul>
       </div>
