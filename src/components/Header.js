@@ -62,7 +62,7 @@ const Header = () => {
           <li className="p-4 border-b border-gray-300">
             <Link to="/Aps">APS Process</Link>
           </li>
-          <li className="p-40">
+          <li className="p-4">
             <Link to="/">German Calculator</Link>
           </li>
         </ul>
