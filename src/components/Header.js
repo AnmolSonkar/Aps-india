@@ -55,14 +55,14 @@ const Header = () => {
           <h1 className=" text-3xl font-bold m-4 mt-10">
             <img src="APS.png" className="w-36" alt="Logo" />
           </h1>
-          <li className="p-4">
+          <li className="p-4 mt-10  border-b border-gray-30">
             <Link to="/Apseligibility">APS Eligibility Check</Link>
           </li>
 
           <li className="p-4 border-b border-gray-300">
             <Link to="/Aps">APS Process</Link>
           </li>
-          <li className="p-4 border-b mt-10 border-gray-300">
+          <li className="p-40">
             <Link to="/">German Calculator</Link>
           </li>
         </ul>
