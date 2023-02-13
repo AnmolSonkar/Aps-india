@@ -1,11 +1,6 @@
 # netlify.toml
 
 [[redirects]]
-  from = "/Aps"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/Apseligibility"
+  from = "/*"
   to = "/index.html"
   status = 200
