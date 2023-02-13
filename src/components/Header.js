@@ -31,13 +31,13 @@ const Header = () => {
         <ul className="hidden md:flex">
         
           <li className="p-4">
-            <Link to="https://eignungstest.netlify.app/">German Calculator</Link>
+            <Link to="/">German Calculator</Link>
           </li>
           <li className="p-4">
-            <Link to="https://eignungstest.netlify.app/Aps">APS Process</Link>
+            <Link to="/Aps">APS Process</Link>
           </li>
           <li className="p-4">
-            <Link to="https://eignungstest.netlify.app/Apseligibility">APS Elgibility Check</Link>
+            <Link to="/Apseligibility">APS Elgibility Check</Link>
           </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -56,13 +56,13 @@ const Header = () => {
             <img src="APS.png" className="w-36" alt="Logo" />
           </h1>
           <li className="p-4 border-b mt-10 border-gray-300">
-            <Link to="https://eignungstest.netlify.app/">German Calculator</Link>
+            <Link to="/">German Calculator</Link>
           </li>
           <li className="p-4 border-b border-gray-300">
-            <Link to="https://eignungstest.netlify.app/Aps">APS Process</Link>
+            <Link to="/Aps">APS Process</Link>
           </li>
           <li className="p-4">
-            <Link to="https://eignungstest.netlify.app/Apseligibility">APS Eligibility Check</Link>
+            <Link to="/Apseligibility">APS Eligibility Check</Link>
           </li>
         </ul>
       </div>
