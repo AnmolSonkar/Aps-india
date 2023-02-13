@@ -14,9 +14,9 @@ function App() {
         <Header></Header>
 
         <Routes>
-        <Route path="/" element={<German />} />
-          <Route path="/Aps" element={<Apsprocess />} />
-          <Route path="/Apseligibility" element={<Apseligibility />} />
+        <Route path="https://eignungstest.netlify.app/" element={<German />} />
+          <Route path="https://eignungstest.netlify.app/Aps" element={<Apsprocess />} />
+          <Route path="https://eignungstest.netlify.app/Apseligibility" element={<Apseligibility />} />
         
         </Routes>
         <Footer></Footer>
