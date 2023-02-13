@@ -55,7 +55,16 @@ function App() {
     aps === "Required for application"
   ) {
     process = "Start APS on meeting all conditions";
-    intake = "Feb-May";
+    intake = "Feb - May";
+    condition1 = [
+      "Condition 1: We won't submit an APS application for pursuing students by the deadline in April because APS is taking almost 4 months to make a decision",
+    ];
+    condition2 = [
+      "Condition 2: Start the application if the student will get the final semester marksheet by the month of May.",
+    ];
+    condition3 = [
+      "Condition 3: Universities are accepting pursuing applicants.",
+    ];
   } else if (
     degreeStatus === "In process (7th sem complete)" &&
     gpa === "<2.0 or >2.0" &&
@@ -78,7 +87,6 @@ function App() {
     <div className="h-screen mt-[150px] display-flex justify-content-center align-items-center text-left">
       <div className="container mx-auto px-4">
         <h1 className="text-2xl font-bold mb-10 text-center">
-         
           Your gateway to study in Germany
         </h1>
         <h1 className="text-xl font-bold mb-5 text-left">
