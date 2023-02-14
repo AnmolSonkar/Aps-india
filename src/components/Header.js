@@ -30,7 +30,7 @@ const Header = () => {
         </h1>
         <ul className="hidden md:flex">
           <li className="p-4">
-            <Link to="/Apseligibility">Elgibility Check</Link>
+            <Link to="/Apseligibility">Eligibility Check</Link>
           </li>
 
           <li className="p-4">
